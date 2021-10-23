@@ -1,0 +1,43 @@
+{
+  "name": "react-select-with-react-query",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [],
+  "main": "src/index.js",
+  "dependencies": {
+    "@testing-library/jest-dom": "5.7.0",
+    "@testing-library/react": "10.0.4",
+    "@testing-library/user-event": "10.1.2",
+    "jest-environment-jsdom-sixteen": "1.0.3",
+    "lodash.debounce": "4.0.8",
+    "react": "16.13.1",
+    "react-dom": "16.13.1",
+    "react-query": "1.3.3",
+    "react-scripts": "3.0.1",
+    "react-select": "3.1.0",
+    "styled-components": "5.1.0"
+  },
+  "devDependencies": {
+    "typescript": "3.8.3"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "babel": {
+    "presets": [
+      "react-app"
+    ]
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
